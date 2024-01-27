@@ -44,23 +44,48 @@
 
 // //useReducer
 // import React from 'react'
-// import Reducer from './Reducer/Reducer'
-
+// import Reducer from './useReducer/Reducer'
 // export default function App() {
 //   return (
-//     <div><Reducer/> </div>
+//     <div> <Reducer/></div>
 //   )
 // }
 
 
-//useCallback
+// //useCallback
+// import React from 'react'
+// import Callback from './Usecallback/Callback'
+
+// export default function App() {
+//   return (
+//     <div><Callback/></div>
+//   )
+// }
+
+// // useRef
+// import React from 'react'
+// import Ref from './useRef/Ref'
+// import CounterComponent from './useRef/CounterCompnent'
+
+// export default function App() {
+//   return (
+//     <div><Ref/>
+//     <CounterComponent/>
+//     </div>
+
+//   )
+// }
+
+//Usememo
 import React from 'react'
-import Callback from './Usecallback/Callback'
+import Memo from './UseMemo/Memo'
 
 export default function App() {
   return (
-    <div><Callback/></div>
+    <div><Memo/></div>
   )
 }
+
+
 
 
