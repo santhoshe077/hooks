@@ -76,15 +76,27 @@
 //   )
 // }
 
-//Usememo
+// //Usememo
+// import React from 'react'
+// import Memo from './UseMemo/Memo'
+
+// export default function App() {
+//   return (
+//     <div><Memo/></div>
+//   )
+// }
+
 import React from 'react'
-import Memo from './UseMemo/Memo'
+import MyComponent from './Axios/MyComponent'
 
 export default function App() {
   return (
-    <div><Memo/></div>
+    <div><MyComponent/></div>
   )
 }
+
+
+
 
 
 
